@@ -1,47 +1,5 @@
 @import url('//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en');
 
-images {
-    background-image: url(./assets/images/logo.png),
-        url(./assets/images/skills/skill-dotnet.jpg),
-        url(./assets/images/skills/skill-angular.jpg),
-        url(./assets/images/skills/skill-typescript.jpg),
-        url(./assets/images/skills/skill-ps.jpg),
-        url(./assets/images/skills/skill-rxjs.jpg),
-        url(./assets/images/skills/skill-webpack.jpg),
-        url(./assets/images/skills/skill-html5.jpg),
-        url(./assets/images/skills/skill-css3.jpg),
-        url(./assets/images/skills/skill-javascript.jpg),
-        url(./assets/images/skills/skill-json.jpg),
-        url(./assets/images/skills/skill-mdl.jpg),
-        url(./assets/images/skills/skill-bootstrap.jpg),
-        url(./assets/images/skills/skill-ef.jpg),
-        url(./assets/images/skills/skill-sql.jpg),
-        url(./assets/images/skills/skill-npm.jpg),
-        url(./assets/images/skills/skill-git.jpg),
-        url(./assets/images/skills/skill-sourcetree.jpg),
-        url(./assets/images/skills/skill-github.jpg),
-        url(./assets/images/skills/skill-azure.jpg),
-        url(./assets/images/skills/skill-xml.jpg),
-        url(./assets/images/skills/skill-jquery.jpg),
-        url(./assets/images/skills/skill-node.jpg),
-        url(./assets/images/skills/skill-react.jpg),
-        url(./assets/images/skills/skill-aurelia.jpg),
-        url(./assets/images/skills/skill-breeze.jpg),
-        url(./assets/images/skills/skill-flux.jpg),
-        url(./assets/images/skills/skill-knockout.jpg),
-        url(./assets/images/skills/skill-less.jpg),
-        url(./assets/images/skills/skill-sass.jpg),
-        url(./assets/images/skills/skill-aws.jpg),
-        url(./assets/images/skills/skill-docker.jpg),
-        url(./assets/images/skills/skill-bower.jpg),
-        url(./assets/images/skills/skill-gulp.jpg),
-        url(./assets/images/skills/skill-jira.jpg),
-        url(./assets/images/skills/skill-bitbucket.jpg),
-        url(./assets/images/skills/skill-apache.jpg),
-        url(./assets/images/skills/skill-mysql.jpg),
-        url(./assets/images/skills/skill-nhibernate.jpg);
-}
-
 body {
     height: 100%;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -80,14 +38,14 @@ hr {
     left: 48.3%;
     height: 60px;
     width: 60px;
-    background: url(./assets/images/btn-scroll-arrow.png) no-repeat;
+    background: url(assets/images/btn-scroll-arrow.png) no-repeat;
     box-shadow: none;
 }
 
 .btn-scroll-down:hover {
     height: 60px;
     width: 60px;
-    background: url(./assets/images/btn-scroll-arrow-hover.png) no-repeat;
+    background: url(assets/images/btn-scroll-arrow-hover.png) no-repeat;
     box-shadow: none;
 }
 
@@ -147,7 +105,7 @@ p {
 
 .navbar-center {
     float: none;
-    padding-right: 50px;
+    padding-left: 50px;
     position: relative;
     top: -20px;
     text-align: center;
@@ -195,21 +153,22 @@ header {
     position: relative;
     display: block;
     width: auto;
-    height: 550px;
+    height: 480px;
     background-color: #00376f;
-    padding: 40px 0;
-    z-index: 1;
+    padding: 40px 0 0 0;
 }
 
 .header-content {
     position: fixed;
     width: 100%;
     height: 100%;
+    z-index: -1;
 }
 
 .header-content img {
     max-width: 400px;
     max-height: 387px;
+    z-index: -1;
 }
 
 .company-name {
@@ -245,13 +204,15 @@ section#contact .col-lg-8 {
 }
 
 .bg-water {
-    background: url(./assets/images/bg-water.jpg) no-repeat center center;
+    background: url(assets/images/bg-water.jpg) no-repeat center center;
     background-attachment: scroll;
     background-size: cover;
+    position: relative;
+    z-index: -2;
 }
 
 .bg-water-fixed {
-    background: url(./assets/images/bg-water.jpg) no-repeat center center;
+    background: url(assets/images/bg-water.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -378,6 +339,10 @@ footer .quote {
         font-size: 0.95em;
     }
 
+    .navbar-center li a {
+        font-size: 0.7em;
+    }
+
     aside {
         height: 80px;
     }
@@ -444,6 +409,10 @@ footer .quote {
 
     .navbar-center li {
         display: block;
+    }
+
+    .navbar-center li a {
+        font-size: 1em;
     }
 
     .navbar-center li a:hover {
