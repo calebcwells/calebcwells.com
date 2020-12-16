@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { pulse } from '../animations/pulse.animation';
 
 @Component({
-    selector: 'data-wells-nav',
+    selector: 'cwcodes-nav',
     templateUrl: './navigation.component.html',
     animations: [pulse]
 })

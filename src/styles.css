@@ -171,14 +171,6 @@ header {
     z-index: -1;
 }
 
-.company-name {
-    color: #fff;
-    font-size: 60px;
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 aside {
     position: relative;
     z-index: 2;
@@ -189,18 +181,13 @@ aside {
 
 section {
     background: #fff;
-    padding: 50px 0 100px 0;
+    padding: 40px 0 100px 0;
     position: relative;
     z-index: 4;
 }
 
 section#about p {
     padding: 0 30px;
-}
-
-section#contact .col-lg-8 {
-    padding-right: 5px;
-    padding-left: 5px;
 }
 
 .bg-water {
@@ -252,42 +239,11 @@ ul.skills {
     padding: 29% 0 29% 0;
 }
 
-.contact-form {
-    position: relative;
-    z-index: 2;
-    padding: 5px;
-    background-color: #fff;
-}
-
-.contact-form em {
-    float: right;
-    color: #e52933;
-}
-
-.contact-sent:before {
-    content: '';
-    display: inline-block;
-    height: 30%;
-    vertical-align: middle;
-}
-
-.contact-sent {
-    position: absolute;
-    top: 0;
-    left: 2%;
-    z-index: 1;
-    height: 90%;
-    width: 96%;
-    background-color: #002142;
-    color: #fff;
-    text-align: center;
-}
-
 footer {
     position: relative;
     z-index: 4;
     background: #00376f;
-    height: 250px;
+    height: 200px;
 }
 
 footer .container {
@@ -298,15 +254,7 @@ footer .container {
 }
 
 footer p {
-    padding-top: 20px;
-}
-
-footer .quote {
-    color: #fff;
-    font-weight: bold;
-    padding: 5px;
-    margin: 0 auto;
-    width: 50%;
+    padding-top: 25px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -320,10 +268,6 @@ footer .quote {
 
     .skill-image img {
         width: 127px;
-    }
-
-    footer {
-        height: 300px;
     }
 }
 
@@ -453,10 +397,6 @@ footer .quote {
         padding: 18% 0 18% 0;
     }
 
-    footer {
-        height: 250px;
-    }
-
     footer .container {
         padding: 0;
     }
@@ -471,15 +411,15 @@ footer .quote {
     p,
     label,
     input {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 
     .header-content img {
         max-width: 80%;
     }
 
-    .company-name {
-        font-size: 2.8em;
+    #secondary-skills p {
+        padding: 10px 30px;
     }
 
     section {
@@ -501,6 +441,15 @@ footer .quote {
     .skill-image img {
         width: 69px;
     }
+
+    footer {
+        height: 150px;
+    }
+
+    footer p {
+        padding-top: 5px;
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -519,9 +468,5 @@ footer .quote {
 
     .skill-image img {
         width: 54px;
-    }
-
-    .contact-sent p {
-        font-size: 0.6em;
     }
 }

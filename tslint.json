@@ -98,7 +98,7 @@
         "template-no-negated-async": true,
         "use-lifecycle-interface": true,
         "use-pipe-transform-interface": true,
-        "directive-selector": [true, "attribute", "data-wells", "camelCase"],
-        "component-selector": [true, "element", "data-wells", "kebab-case"]
+        "directive-selector": [true, "attribute", "cwcodes", "camelCase"],
+        "component-selector": [true, "element", "cwcodes", "kebab-case"]
     }
 }
