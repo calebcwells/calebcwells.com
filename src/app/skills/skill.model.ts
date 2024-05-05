@@ -8,33 +8,15 @@
 export const primarySkills: ISkill[] = [
     {
         image: 'assets/images/skills/skill-dotnetcore.jpg',
-        title: '.NET Core',
+        title: '.NET',
         fullUrl: 'https://dotnet.microsoft.com/',
         friendlyUrl: 'dotnet.microsoft.com'
     },
     {
         image: 'assets/images/skills/skill-csharp.jpg',
         title: 'C#',
-        fullUrl: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+        fullUrl: 'https://learn.microsoft.com/dotnet/csharp/',
         friendlyUrl: 'microsoft.com/csharp'
-    },
-    {
-        image: 'assets/images/skills/skill-angular.jpg',
-        title: 'Angular',
-        fullUrl: 'https://angular.io/',
-        friendlyUrl: 'angular.io'
-    },
-    {
-        image: 'assets/images/skills/skill-typescript.jpg',
-        title: 'TypeScript',
-        fullUrl: 'https://www.typescriptlang.org/',
-        friendlyUrl: 'typescriptlang.org'
-    },
-    {
-        image: 'assets/images/skills/skill-azure.jpg',
-        title: 'Azure',
-        fullUrl: 'https://azure.microsoft.com/',
-        friendlyUrl: 'azure.microsoft.com'
     },
     {
         image: 'assets/images/skills/skill-blazor.jpg',
@@ -43,28 +25,16 @@ export const primarySkills: ISkill[] = [
         friendlyUrl: 'microsoft.com/blazor'
     },
     {
+        image: 'assets/images/skills/skill-azure.jpg',
+        title: 'Azure',
+        fullUrl: 'https://azure.microsoft.com/',
+        friendlyUrl: 'azure.microsoft.com'
+    },
+    {
         image: 'assets/images/skills/skill-ef.jpg',
         title: 'Entity Framework',
         fullUrl: 'https://docs.microsoft.com/ef/',
         friendlyUrl: 'microsoft.com/ef'
-    },
-    {
-        image: 'assets/images/skills/skill-powerbi.jpg',
-        title: 'Power BI',
-        fullUrl: 'https://powerbi.microsoft.com',
-        friendlyUrl: 'powerbi.microsoft.com'
-    },
-    {
-        image: 'assets/images/skills/skill-rxjs.jpg',
-        title: 'RxJS',
-        fullUrl: 'https://rxjs-dev.firebaseapp.com/',
-        friendlyUrl: 'rxjs-dev.com'
-    },
-    {
-        image: 'assets/images/skills/skill-json.jpg',
-        title: 'JSON',
-        fullUrl: 'https://www.json.org/',
-        friendlyUrl: 'json.org'
     },
     {
         image: 'assets/images/skills/skill-html5.jpg',
@@ -77,6 +47,42 @@ export const primarySkills: ISkill[] = [
         title: 'CSS 3',
         fullUrl: 'https://www.w3.org/Style/CSS/Overview.en.html',
         friendlyUrl: 'w3.org/css'
+    },
+    {
+        image: 'assets/images/skills/skill-bootstrap.jpg',
+        title: 'Bootstrap',
+        fullUrl: 'https://getbootstrap.com/',
+        friendlyUrl: 'getbootstrap.com'
+    },
+    {
+        image: 'assets/images/skills/skill-sass.jpg',
+        title: 'Sass',
+        fullUrl: 'https://sass-lang.com/',
+        friendlyUrl: 'sass-lang.com'
+    },
+    {
+        image: 'assets/images/skills/skill-typescript.jpg',
+        title: 'TypeScript',
+        fullUrl: 'https://www.typescriptlang.org/',
+        friendlyUrl: 'typescriptlang.org'
+    },
+    {
+        image: 'assets/images/skills/skill-angular.jpg',
+        title: 'Angular',
+        fullUrl: 'https://angular.io/',
+        friendlyUrl: 'angular.io'
+    },
+    {
+        image: 'assets/images/skills/skill-rxjs.jpg',
+        title: 'RxJS',
+        fullUrl: 'https://rxjs-dev.firebaseapp.com/',
+        friendlyUrl: 'rxjs-dev.com'
+    },
+    {
+        image: 'assets/images/skills/skill-json.jpg',
+        title: 'JSON',
+        fullUrl: 'https://www.json.org/',
+        friendlyUrl: 'json.org'
     },
     {
         image: 'assets/images/skills/skill-javascript.jpg',
@@ -97,26 +103,14 @@ export const primarySkills: ISkill[] = [
         friendlyUrl: 'adobe.com/photoshop'
     },
     {
-        image: 'assets/images/skills/skill-bootstrap.jpg',
-        title: 'Bootstrap',
-        fullUrl: 'https://getbootstrap.com/',
-        friendlyUrl: 'getbootstrap.com'
-    },
-    {
         image: 'assets/images/skills/skill-mdl.jpg',
         title: 'Material Design',
         fullUrl: 'https://material.io/',
         friendlyUrl: 'material.io'
     },
     {
-        image: 'assets/images/skills/skill-sass.jpg',
-        title: 'Sass',
-        fullUrl: 'https://sass-lang.com/',
-        friendlyUrl: 'sass-lang.com'
-    },
-    {
         image: 'assets/images/skills/skill-dotnet.jpg',
-        title: '.NET',
+        title: '.NET Framework',
         fullUrl:
             'https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet-framework',
         friendlyUrl: 'microsoft.com/dotnet'
@@ -126,6 +120,12 @@ export const primarySkills: ISkill[] = [
         title: 'SQL',
         fullUrl: 'https://www.microsoft.com/en-us/sql-server/',
         friendlyUrl: 'microsoft.com/sql-server'
+    },
+    {
+        image: 'assets/images/skills/skill-docker.jpg',
+        title: 'Docker',
+        fullUrl: 'https://www.docker.com/',
+        friendlyUrl: 'docker.com'
     },
     {
         image: 'assets/images/skills/skill-git.jpg',
@@ -161,10 +161,10 @@ export const primarySkills: ISkill[] = [
 
 export const secondarySkills: ISkill[] = [
     {
-        image: 'assets/images/skills/skill-docker.jpg',
-        title: 'Docker',
-        fullUrl: 'https://www.docker.com/',
-        friendlyUrl: 'docker.com'
+        image: 'assets/images/skills/skill-powerbi.jpg',
+        title: 'Power BI',
+        fullUrl: 'https://powerbi.microsoft.com',
+        friendlyUrl: 'powerbi.microsoft.com'
     },
     {
         image: 'assets/images/skills/skill-aws.jpg',

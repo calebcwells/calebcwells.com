@@ -257,10 +257,12 @@ ul.youtube {
     line-height: 1.8em;
 }
 
-.youtube li {
+#explore ul {
     display: inline-block;
-    padding-right: 20px;
-    cursor: pointer;
+}
+
+#explore ul li {
+    text-align: left;
 }
 
 footer {
@@ -296,6 +298,7 @@ footer p {
 }
 
 @media screen and (max-width: 1000px) {
+
     h1,
     h2 {
         font-size: 1.9em;
@@ -325,6 +328,7 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+
     h1,
     h2 {
         font-size: 1.8em;
@@ -432,6 +436,7 @@ footer p {
 }
 
 @media screen and (max-width: 520px) {
+
     h1,
     h2 {
         font-size: 1.4em;

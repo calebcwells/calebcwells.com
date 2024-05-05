@@ -12,8 +12,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { SkillSliderComponent } from './animations/skill-slider.animation';
-import { PodcastComponent } from './podcast/podcast.component';
-import { YoutubeComponent } from './youtube/youtube.component';
+import { ExploreComponent } from './explore/explore.component';
 
 @NgModule({
     declarations: [
@@ -23,8 +22,7 @@ import { YoutubeComponent } from './youtube/youtube.component';
         AboutComponent,
         SkillsComponent,
         SkillSliderComponent,
-        PodcastComponent,
-        YoutubeComponent
+        ExploreComponent
     ],
     imports: [
         BrowserModule,
